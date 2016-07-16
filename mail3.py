@@ -25,8 +25,9 @@ receiver = ['test0001@alpha.terracetech.co.kr', 'test0002@alpha.terracetech.co.k
             'test0004@alpha.terracetech.co.kr', 'test0005@alpha.terracetech.co.kr', 'test0006@alpha.terracetech.co.kr',
             'test0007@alpha.terracetech.co.kr', 'test0008@alpha.terracetech.co.kr', 'test0009@alpha.terracetech.co.kr']
 
-fp = open("C:\\textfile.eml", 'rb')
+fp = open("C:\\textfile2.eml", 'rb')
 msg = MIMEText(fp.read())
+
 fp.close()
 
 msg['Subject'] = "wow"
